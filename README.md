@@ -2,13 +2,15 @@
 ---
 
 ## Project Summary:
-
 ---
 Rossmann operates over 3000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for upto six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of indivitual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied. We are provided with historical sales data for **1115 Rossmann stores**. The task is to forecast the **sales column** for the test set. Some of the stores in the dataset were temporarily closed for refurbishment.
 
 ## Data Description of each column:
 
 ---
+### Rossmann Stores Data.csv - Contains Historical data including Sales.
+
+### store.csv - Contains Supplemental information about the stores.
 
 1.   **Id** ⇒ Unique entry id.
 2.   **Store** ⇒ Store id
@@ -20,8 +22,10 @@ Rossmann operates over 3000 drug stores in 7 European countries. Currently, Ross
 8.   **StoreType** ⇒ Types of Stores.
 9.   **Assortment** ⇒ Types of assortment.
 10.   **Competitiondistance** ⇒ Distance from the nearest competetor store.
-11.   **promo** ⇒ Store running promo or not.
-12.   **Promo2** ⇒ Store running consequitive promo or not.
+11.   **promo** ⇒ Stores running promo or not.
+12.   **Promo2** ⇒ Stores running consequitive promo or not.
+13.   **Date** ⇒ Date of Sales.
+14.   **DayOfWeek** ⇒ Seriel number of the day in a Week.
 
 
 
